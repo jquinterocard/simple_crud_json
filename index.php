@@ -63,7 +63,7 @@
                             <td><?php echo $row->lastname ?></td>
                             <td><?php echo $row->address ?></td>
                             <td><?php echo $row->gender ?></td>
-                            <td><a class="btn btn-danger" href="delete.php?id=<?php echo $row->id?>">Borrar</a></td>
+                            <td><a class="btn btn-danger" href="delete.php?id=<?php echo $row->id?>">Delete</a></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
